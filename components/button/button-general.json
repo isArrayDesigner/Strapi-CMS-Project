@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_button_button_generals",
+  "info": {
+    "name": "buttonGeneral",
+    "icon": "hand-pointer"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "buttonAction": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "green",
+        "transparent"
+      ]
+    }
+  }
+}

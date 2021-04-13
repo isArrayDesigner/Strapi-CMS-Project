@@ -71,6 +71,11 @@
       "type": "component",
       "repeatable": false,
       "component": "footer.footer"
+    },
+    "buttonGeneral": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button-general"
     }
   }
 }
