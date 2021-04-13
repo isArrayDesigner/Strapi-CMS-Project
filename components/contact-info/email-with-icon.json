@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_contact_info_email_with_icons",
+  "info": {
+    "name": "emailWithIcon",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "emailAddress": {
+      "type": "string"
+    },
+    "emailIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

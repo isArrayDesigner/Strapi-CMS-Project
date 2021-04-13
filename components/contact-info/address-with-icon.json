@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_contact_info_address_with_icons",
+  "info": {
+    "name": "addressWithIcon",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "physicalAddress": {
+      "type": "string"
+    },
+    "addressIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

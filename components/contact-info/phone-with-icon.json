@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_contact_info_phone_with_icons",
+  "info": {
+    "name": "phoneWithIcon",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "phoneIcon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    }
+  }
+}

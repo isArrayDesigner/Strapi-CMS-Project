@@ -7,17 +7,23 @@
   },
   "options": {},
   "attributes": {
-    "address": {
-      "type": "string"
-    },
-    "phone": {
-      "type": "biginteger"
-    },
-    "email": {
-      "type": "email"
-    },
     "companyName": {
       "type": "string"
+    },
+    "phoneWithIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.phone-with-icon"
+    },
+    "emailWithIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.email-with-icon"
+    },
+    "addressWithIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.address-with-icon"
     }
   }
 }
