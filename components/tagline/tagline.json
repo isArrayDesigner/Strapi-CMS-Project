@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tagline_taglines",
+  "info": {
+    "name": "tagline",
+    "icon": "font"
+  },
+  "options": {},
+  "attributes": {
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    }
+  }
+}

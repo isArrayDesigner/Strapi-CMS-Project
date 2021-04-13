@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_section_title_section_titles",
+  "info": {
+    "name": "Section Title",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "green",
+        "white",
+        "black"
+      ]
+    },
+    "underline": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "white",
+        "black",
+        "grey"
+      ]
+    }
+  }
+}

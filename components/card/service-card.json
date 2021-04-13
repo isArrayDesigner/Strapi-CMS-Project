@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_card_service_cards",
+  "info": {
+    "name": "serviceCard",
+    "icon": "poll-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.image"
+    },
+    "cardBody": {
+      "type": "richtext"
+    },
+    "cardTitle": {
+      "type": "richtext"
+    }
+  }
+}

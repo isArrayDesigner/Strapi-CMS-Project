@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "name": "footer",
+    "icon": "window-minimize"
+  },
+  "options": {},
+  "attributes": {
+    "copyrightCompany": {
+      "type": "string"
+    },
+    "copyrightYear": {
+      "type": "integer"
+    },
+    "contactUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.contact-us"
+    }
+  }
+}

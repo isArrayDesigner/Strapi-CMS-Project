@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.image"
+    },
+    "loginButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "tagline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tagline.tagline"
+    },
+    "servicesSectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-title.section-title"
+    },
+    "serviceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.service-card"
+    },
+    "aboutCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.service-card"
+    },
+    "aboutSectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-title.section-title"
+    },
+    "contactSectionTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-title.section-title"
+    },
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.contact-info"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer"
+    }
+  }
+}

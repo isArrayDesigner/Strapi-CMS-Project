@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contact_info_contact_infos",
+  "info": {
+    "name": "contactInfo",
+    "icon": "map-marker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "companyName": {
+      "type": "string"
+    }
+  }
+}

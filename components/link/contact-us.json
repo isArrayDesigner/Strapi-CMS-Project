@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_link_contactuses",
+  "info": {
+    "name": "contactUs",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "linkText": {
+      "type": "string"
+    },
+    "linkURL": {
+      "type": "string"
+    }
+  }
+}
