@@ -21,7 +21,7 @@ const WysiwygWithErrors = ({
     
   if (!noErrorsDescription && !isEmpty(errors)) {
     spacer = <div />;
-  }
+  } 
   
   return (
     <div
